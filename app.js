@@ -24,6 +24,7 @@ app.get('/posts', async (req, res) => {
 app.get('/newpost', (req, res) => {
     res.render('newpostpage');
 });
+//test
 
 // POST route to create a new post
 app.post('/newpost', async (req, res) => {
